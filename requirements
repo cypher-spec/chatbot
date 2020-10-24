@@ -39,7 +39,7 @@ plac==0.9.6
 plyer==1.4.3
 preshed==3.0.2
 pyasn1==0.4.8
-PyAudio @ file:///C:/Users/cYpher/pipwin/PyAudio-0.2.11-cp37-cp37m-win_amd64.whl
+
 Pygments==2.6.1
 pyjnius==1.3.0
 pyjsparser==2.7.1
