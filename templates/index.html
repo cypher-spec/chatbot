@@ -52,9 +52,7 @@
     const msgerChat = get(".msger-chat");
 
 
-    // Icons made by Freepik from www.flaticon.com
-    const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
-    const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
+
     const BOT_NAME = "Kona";
     const PERSON_NAME = "You";
 
@@ -91,7 +89,7 @@
     function botResponse(rawText) {
 
       // Bot Response
-      $.get("/get", { msg: rawText }).done(function (data) {
+      $.get("/get_bot_response",{ msg: rawText }).done(function (data) {
         console.log(rawText);
         console.log(data);
         const msgText = data;
